@@ -17,7 +17,7 @@
 
   <a name="try"></a>View the Demo
   -----------
-  [DEMO](http://gabojkz.github.io/drawGame/)
+  [View DEMO](http://gabojkz.github.io/experiments/)
 
   ####Preview Image :point_down:
 
