@@ -1,8 +1,7 @@
 'use strict';
 
 var gulp        = require('gulp'),
-	pages		= require('gulp-gh-pages'),
-	deploy      = require('gulp-deploy-git');
+	pages		= require('gulp-gh-pages');
 
 	gulp.task('build', function(){
 		return gulp.src(['index.html', 'app.js', 'style.css'], {base:'./'})
