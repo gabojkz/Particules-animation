@@ -21,7 +21,7 @@
 
   ####Preview Image :point_down:
 
-  ![ScreenShot](https://raw.githubusercontent.com/gabojkz/CanvasExperiment/master/img/preview.png)
+  ![ScreenShot](https://raw.githubusercontent.com/gabojkz/experiments/master/img/preview.png)
 
 
   <a name="Version"></a>The Latest Version
