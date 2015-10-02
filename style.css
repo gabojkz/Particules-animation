@@ -1,0 +1,52 @@
+/************************
+Google Fonts Optimization 
+*************************/
+@import url('http://fonts.googleapis.com/css?family=Merriweather|Quicksand');
+
+body  {
+	background-color: #1A1919;
+}
+canvas{
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+}
+button{
+	background: #DA3610;
+	color: #FAFAFA;
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 40px;
+	border-radius: 3px;
+	box-shadow: none;
+	border: none;
+	margin: 22px 15px 0 auto;
+	padding: 7px;
+	font-weight: bold;
+}
+button:focus{
+	background-color: #B24229;
+}
+h1{
+	color: #BF4C40;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+p{
+	color: #FAFAFA;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-size: 18px;
+}
+a{
+	color: #BF4C40;
+	font-size: 20;
+}
+/****************************
+		Button center
+****************************/
+#center{
+	text-align: center;
+}

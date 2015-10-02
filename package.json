@@ -1,0 +1,17 @@
+{
+  "name": "experiment",
+  "version": "1.0.0",
+  "description": "Javascript experiments with canvas html5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "canvas",
+    "html5",
+    "javascript",
+    "particles"
+  ],
+  "author": "Gabriel Komander",
+  "license": "MIT"
+}
