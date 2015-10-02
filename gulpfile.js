@@ -1,11 +1,15 @@
-'use strict'
-var gulp        = require('gulp');
-var deploy      = require('gulp-gh-pages');
+'use strict';
 
-/**
- * Push build to gh-pages
- */
-gulp.task('deploy', function () {
-  return gulp.src("./dist/**/*")
-    .pipe(deploy())
-});
+var gulp        = require('gulp'),
+	pages		= require('gulp-gh-pages'),
+	deploy      = require('gulp-deploy-git');
+
+	gulp.task('build', function(){
+		return gulp.src(['index.html', 'app.js', 'style.css'], {base:'./'})
+		.pipe(gulp.dest('dist'));//send the files to dist
+	});
+
+	gulp.task('deploy',['build'], function(){
+		return gulp.src("./dist/**/*")
+		.pipe(pages());
+	})
